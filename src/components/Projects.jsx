@@ -19,7 +19,7 @@ import tratamientosImg from "../assets/odontologia/tratamientos.png";
 
 const projects = [
   {
-    title: "App tipo Netflix",
+    title: "VHSflix (Netflix de Trailers)",
     description:
       "Plataforma web inspirada en streaming con búsqueda de películas, consumo de API externa y una interfaz visual moderna.",
     tech: ["React", "Tailwind", "TMDB API", "Context API"],
@@ -28,7 +28,18 @@ const projects = [
     images: [homeImg, favoritosImg, imagenImg, trailerImg],
   },
   {
-    title: "Sistema odontológico",
+    title: "Panadería Ipanema",
+    description:
+      "Panadería Ipanema de Segovia",
+    tech: ["React", "Tailwind"],
+    demo: "https://ipanema-panaderia.vercel.app/",
+    code: "https://github.com/Danieldaviddf/Panaderia-Ipanema",
+    images: [
+      
+    ],
+  },
+  {
+    title: "Sistema Odontológico (Colaborador)",
     description:
       "Sistema completo para gestión de pacientes, citas y autenticación, con lógica real de negocio y panel profesional.",
     tech: ["React", "Supabase", "Tailwind", "React Router"],
@@ -48,6 +59,7 @@ const projects = [
       homeHorariosImg,
     ],
   },
+  
 ];
 
 function ProjectCard({ project }) {
