@@ -70,7 +70,7 @@ export default function Contact() {
 
         <div className="mt-8 flex flex-wrap justify-center gap-6">
           <a
-            href="https://wa.me/+34674516605"
+            href="https://wa.me/+34643804335"
             target="_blank"
             rel="noreferrer"
            className="flex items-center gap-2 rounded-xl bg-green-600/90 backdrop-blur px-6 py-3 font-semibold text-white transition hover:scale-105 hover:bg-green-500 hover:shadow-[0_0_20px_rgba(34,197,94,0.6)]"
@@ -80,7 +80,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="mailto:alexisrrh123@gmail.com"
+            href="mailto:danieldaviddiazf@gmail.com"
             className="flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 backdrop-blur px-6 py-3 text-white transition hover:scale-105 hover:bg-white/10 hover:shadow-[0_0_15px_rgba(255,255,255,0.2)]"
           >
             <MailIcon />
@@ -88,7 +88,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://instagram.com/alexisrrh"
+            href="https://instagram.com/danieldaviddf"
             target="_blank"
             rel="noreferrer"
            className="flex items-center gap-2 rounded-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 px-6 py-3 font-semibold text-white transition hover:scale-105 hover:opacity-90 hover:shadow-[0_0_20px_rgba(255,0,100,0.6)]"
@@ -97,7 +97,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://github.com/alexisrrh"
+            href="https://github.com/danieldaviddf"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 backdrop-blur px-6 py-3 text-white transition hover:scale-105 hover:bg-white/10 hover:shadow-[0_0_15px_rgba(255,255,255,0.2)]"
