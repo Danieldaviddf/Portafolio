@@ -9,7 +9,7 @@ export const initialState = {
 
 };
 
-export const appReducer = (state, action) => {
+export const AppReducer = (state, action) => {
   switch (action.type) {
     case "set_favoritos":
       return {

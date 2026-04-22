@@ -4,7 +4,7 @@ import { AppReducer, initialState } from "./AppReducer";
 const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(appReducer, initialState);
+  const [state, dispatch] = useReducer(AppReducer, initialState);
 
   return (
     <AppContext.Provider value={{ state, dispatch }}>
