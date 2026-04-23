@@ -3,17 +3,17 @@ export default function Hero() {
     <section className="relative overflow-hidden px-6 py-28 text-center">
 
       {/* fondo efecto */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,0,80,0.2),transparent_40%),radial-gradient(circle_at_bottom,rgba(0,150,255,0.15),transparent_40%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,140,0,0.2),transparent_70%),radial-gradient(circle_at_bottom,rgba(255,100,0,0.15),transparent_70%)]" />
 
       <div className="relative max-w-4xl mx-auto">
 
-        <p className="text-red-400 uppercase text-sm tracking-widest">
+        <p className="text-orange-400 uppercase text-sm tracking-widest">
           Frontend Developer
         </p>
 
         <h1 className="text-4xl md:text-6xl font-extrabold mt-4 leading-tight">
           Desarrollo páginas web modernas y{" "}
-          <span className="text-red-500">experiencias digitales</span>
+          <span className="text-orange-500">experiencias digitales</span>
         </h1>
 
         <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-lg">
@@ -24,7 +24,7 @@ export default function Hero() {
 
           <a
             href="#projects"
-            className="bg-red-600 hover:bg-red-500 px-6 py-3 rounded-xl font-semibold transition"
+            className="bg-orange-600 hover:bg-orange-400 px-6 py-3 rounded-xl font-semibold transition"
           >
             Ver proyectos
           </a>

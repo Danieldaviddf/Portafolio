@@ -31,7 +31,7 @@ export default function Navbar() {
           </a>
           <a
             href="#contact"
-            className="rounded-xl bg-red-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-red-500"
+            className="rounded-xl bg-orange-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-orange-500 shadow-lg shadow-orange-900/20"
           >
             Contacto
           </a>
@@ -89,7 +89,7 @@ export default function Navbar() {
             </a>
             <a
               href="#contact"
-              className="rounded-xl bg-red-600 px-4 py-2 text-center font-medium text-white transition hover:bg-red-500"
+              className="rounded-xl bg-orange-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-orange-500 shadow-lg shadow-orange-900/20"
               onClick={() => setIsOpen(false)}
             >
               Contacto
