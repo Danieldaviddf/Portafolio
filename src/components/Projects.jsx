@@ -17,6 +17,11 @@ import miscitasImg from "../assets/odontologia/mis-citas.png";
 import presupuestoImg from "../assets/odontologia/presupuesto.png";
 import tratamientosImg from "../assets/odontologia/tratamientos.png";
 
+import inicioipa from "../assets/ipanema/inicioipa.png";
+import horarioipa from "../assets/ipanema/horarioipa.png";
+import historiaipa from "../assets/ipanema/historiaipa.png";
+import contactoipa from "../assets/ipanema/contactoipa.png";
+
 const projects = [
   {
     title: "VHSflix (Netflix de Trailers)",
@@ -35,7 +40,10 @@ const projects = [
     demo: "https://ipanema-panaderia.vercel.app/",
     code: "https://github.com/Danieldaviddf/Panaderia-Ipanema",
     images: [
-      
+      inicioipa,
+      horarioipa,
+      historiaipa,
+      contactoipa
     ],
   },
   {
@@ -123,7 +131,7 @@ function ProjectCard({ project }) {
             href={project.demo}
             target="_blank"
             rel="noreferrer"
-            className="rounded-xl bg-orange-600 px-4 py-2 font-medium text-white transition hover:bg-orange-400"
+            className="rounded-xl  px-4 py-2 font-medium text-white transition bg-orange-600 hover:bg-orange-400"
           >
             Ver demo
           </a>
