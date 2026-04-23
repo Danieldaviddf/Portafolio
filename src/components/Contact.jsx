@@ -55,7 +55,7 @@ export default function Contact() {
   return (
     <section id="contact" className="bg-black px-6 py-20">
       <div className="mx-auto max-w-4xl rounded-2xl border border-white/10 bg-zinc-900 p-10 text-center">
-        <p className="text-sm uppercase tracking-widest text-red-400">
+        <p className="text-sm uppercase tracking-widest text-orange-400">
           Contacto
         </p>
 

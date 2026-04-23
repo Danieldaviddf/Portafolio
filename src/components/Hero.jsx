@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="relative max-w-4xl mx-auto">
 
         <p className="text-orange-400 uppercase text-sm tracking-widest">
-          Frontend Developer
+          Full Stack Developer Junior
         </p>
 
         <h1 className="text-4xl md:text-6xl font-extrabold mt-4 leading-tight">
@@ -16,8 +16,11 @@ export default function Hero() {
           <span className="text-orange-500">experiencias digitales</span>
         </h1>
 
-        <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-lg">
-          Creo interfaces atractivas, rápidas y funcionales con React, APIs y diseño profesional adaptado a negocios reales.
+        <p className="text-gray-400 mt-8 max-w-2xl mx-auto text-lg leading-relaxed">
+          Creo interfaces atractivas con <span className="text-white font-bold">React</span>, 
+          desarrollo lógica robusta con <span className="text-white font-bold">Python</span> y 
+          gestiono datos en <span className="text-white font-bold">SQL</span>, 
+          ofreciendo soluciones adaptadas a negocios reales.
         </p>
 
         <div className="mt-8 flex flex-col md:flex-row justify-center gap-4">

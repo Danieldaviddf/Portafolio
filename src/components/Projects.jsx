@@ -76,7 +76,7 @@ function ProjectCard({ project }) {
   }, [project.images]);
 
   return (
-    <article className="group overflow-hidden rounded-3xl border border-white/10 bg-zinc-950 shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-[1.02] hover:border-red-500/40">
+    <article className="group overflow-hidden rounded-3xl border border-white/10 bg-zinc-950 shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-[1.02] hover:border-orange-500/40">
       {project.images?.length ? (
         <div className="relative h-72 md:h-80 overflow-hidden">
           <img
@@ -123,7 +123,7 @@ function ProjectCard({ project }) {
             href={project.demo}
             target="_blank"
             rel="noreferrer"
-            className="rounded-xl bg-red-600 px-4 py-2 font-medium text-white transition hover:bg-red-500"
+            className="rounded-xl bg-orange-600 px-4 py-2 font-medium text-white transition hover:bg-orange-400"
           >
             Ver demo
           </a>
