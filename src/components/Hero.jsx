@@ -27,7 +27,7 @@ export default function Hero() {
 
           <a
             href="#projects"
-            className="bg-orange-600 hover:bg-orange-400 px-6 py-3 rounded-xl font-semibold transition"
+            className="bg-orange-600 hover:bg-orange-400 px-6 py-3 rounded-xl font-semibold transition tap-highlight-transparent"
           >
             Ver proyectos
           </a>
