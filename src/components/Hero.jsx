@@ -8,11 +8,11 @@ export default function Hero() {
       <div className="relative max-w-4xl mx-auto">
 
         <p className="text-orange-400 uppercase text-sm tracking-widest">
-          Full Stack Developer Junior
+          Full Stack Developer
         </p>
 
         <h1 className="text-4xl md:text-6xl font-extrabold mt-4 leading-tight">
-          Desarrollo páginas web modernas y{" "}
+          Desarrollo páginas web y{" "}
           <span className="text-orange-500">experiencias digitales</span>
         </h1>
 
