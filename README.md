@@ -17,7 +17,7 @@ For this project, I used:
 - **Modern UI:** Clean and intuitive user interface.
 
 ## 📸 Preview
-![Portfolio Screenshot](https://githubusercontent.com)
+![Portfolio Screenshot](./public/preview1.png)
 
 ## 🏗️ Local Installation
 If you want to explore the code locally, follow these steps:
