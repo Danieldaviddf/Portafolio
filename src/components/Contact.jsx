@@ -70,7 +70,7 @@ export default function Contact() {
 
         <div className="mt-8 flex flex-wrap justify-center gap-6">
           <a
-            href="https://wa.me/+34643804335"
+            href="https://wa.me/34643804335?text=Hola%20quiero%20información!"
             target="_blank"
             rel="noreferrer"
            className="flex items-center gap-2 rounded-xl bg-green-600/90 backdrop-blur px-6 py-3 font-semibold text-white transition hover:scale-105 hover:bg-green-500 hover:shadow-[0_0_20px_rgba(34,197,94,0.6)]"

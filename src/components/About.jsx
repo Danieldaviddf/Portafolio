@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section id="about" className="px-6 py-20">
-      <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-2">
+      <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-2 text-center">
         <div>
           <p className="text-sm uppercase tracking-[0.2em] text-orange-400">
             Sobre mí

@@ -152,10 +152,10 @@ function ProjectCard({ project }) {
 
 export default function Projects() {
   return (
-    <section id="projects" className="px-6 py-20">
+    <section id="projects" className="px-6 py-20 text-center">
       <div className="mx-auto max-w-6xl">
-        <div className="mb-12">
-          <p className="text-sm uppercase tracking-[0.2em] text-red-400">
+        <div className="mb-12 flex flex-col items-center">
+          <p className="text-sm uppercase tracking-[0.2em] text-orange-400 mx-auto">
             Portfolio
           </p>
           <h2 className="mt-3 text-3xl font-bold md:text-4xl">
