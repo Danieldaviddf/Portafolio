@@ -156,7 +156,7 @@ export default function Projects() {
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 flex flex-col items-center">
           <p className="text-sm uppercase tracking-[0.2em] text-orange-400 mx-auto">
-            Portfolio
+            Portafolio
           </p>
           <h2 className="mt-3 text-3xl font-bold md:text-4xl">
             Proyectos destacados
