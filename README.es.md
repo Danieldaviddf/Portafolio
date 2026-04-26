@@ -17,7 +17,7 @@ Para este proyecto usé:
 - **Interfaz Moderna:** UI limpia e intuitiva centrada en la experiencia del usuario.
 
 ## 📸 Vista Previa
-![Captura del Portafolio](https://danieldaviddf.vercel.app/preview1.png)
+![Captura del Portafolio](https://githubusercontent.com)
 
 ## 🏗️ Instalación Local
 Si quieres explorar el código localmente, sigue estos pasos:
