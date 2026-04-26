@@ -1,4 +1,4 @@
-# 🚀 Mi Portafolio Personal - [Tu Nombre]
+# 🚀 Mi Portafolio Personal - Daniel David Díaz Flores
 
 ¡Hola! Soy **Daniel David Díaz Flores**, un **Desarrollador Full Stack** apasionado por crear experiencias web increíbles. Aquí encontrarás el código de mi portafolio y los proyectos que he construido.
 
@@ -16,14 +16,14 @@ Para este proyecto usé:
 - **Diseño Responsive:** Adaptado para móviles, tablets y escritorio.
 
 ## 📸 Vista Previa
-![Captura de pantalla de mi portafolio] ../assets/ipanema/contactoipa.png
+../assets/ipanema/contactoipa.png
 
 ## 🏗️ Instalación Local
 Si quieres ver cómo funciona por dentro:
 
-1. Clona el repo: `git clone https://github.com`
+1. Clona el repo: `git clone https://github.com/Danieldaviddf/Portafolio`
 2. Instala dependencias: `npm install`
 3. Corre el proyecto: `npm run dev`
 
 ---
-Hecho con ☕ y 💻 por [Tu Nombre].
+Hecho con ☕ y 💻 por Daniel Díaz.
