@@ -17,7 +17,7 @@ For this project, I used:
 - **Modern UI:** Clean and intuitive user interface.
 
 ## 📸 Preview
-![Portfolio Screenshot](../assets/ipanema/contactoipa.png)
+![Portfolio Screenshot](https://danieldaviddf.vercel.app/preview1.png)
 
 ## 🏗️ Local Installation
 If you want to explore the code locally, follow these steps:
