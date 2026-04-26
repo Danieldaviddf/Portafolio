@@ -17,7 +17,7 @@ Para este proyecto usé:
 - **Interfaz Moderna:** UI limpia e intuitiva centrada en la experiencia del usuario.
 
 ## 📸 Vista Previa
-![Captura del Portafolio](https://githubusercontent.com)
+![Captura del Portafolio](./public/preview1.png)
 
 ## 🏗️ Instalación Local
 Si quieres explorar el código localmente, sigue estos pasos:
