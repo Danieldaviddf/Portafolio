@@ -3,8 +3,8 @@
 ¡Hola! Soy **Daniel David Díaz Flores**, un **Desarrollador Full Stack** apasionado por crear experiencias web increíbles. Aquí encontrarás el código de mi portafolio y los proyectos que he construido.
 
 ## 🔗 Enlaces Rápidos
-- **Web en vivo:** https://danieldaviddf.vercel.app/
-- **GitHub:** https://github.com/Danieldaviddf
+- **Web en vivo:** [danieldaviddf.vercel.app](https://vercel.app)
+- **Perfil de GitHub:** [://github.com](https://://github.com)
 
 ## 🛠️ Tecnologías Utilizadas
 Para este proyecto usé:
@@ -13,17 +13,27 @@ Para este proyecto usé:
 *   **Despliegue:** Vercel / Netlify
 
 ## ✨ Características Principales
-- **Diseño Responsive:** Adaptado para móviles, tablets y escritorio.
+- **Diseño Responsive:** Totalmente optimizado para dispositivos móviles, tablets y escritorio.
+- **Interfaz Moderna:** UI limpia e intuitiva centrada en la experiencia del usuario.
 
 ## 📸 Vista Previa
-../assets/ipanema/contactoipa.png
+![Captura del Portafolio](../assets/ipanema/contactoipa.png)
 
 ## 🏗️ Instalación Local
-Si quieres ver cómo funciona por dentro:
+Si quieres explorar el código localmente, sigue estos pasos:
 
-1. Clona el repo: `git clone https://github.com/Danieldaviddf/Portafolio`
-2. Instala dependencias: `npm install`
-3. Corre el proyecto: `npm run dev`
+1.  **Clona el repositorio:**
+    ```bash
+    git clone https://://github.com/Portafolio
+    ```
+2.  **Instala las dependencias:**
+    ```bash
+    npm install
+    ```
+3.  **Ejecuta el proyecto:**
+    ```bash
+    npm run dev
+    ```
 
 ---
-Hecho con ☕ y 💻 por Daniel Díaz.
+Hecho con ☕ y 💻 por **Daniel Díaz**.
