@@ -40,7 +40,6 @@ export default function Hero() {
     const draw = () => {
       const w = canvas.width;
       const h = canvas.height;
-
       ctx.fillStyle = "rgba(10, 5, 2, 0.25)";
       ctx.fillRect(0, 0, w, h);
 
@@ -107,12 +106,16 @@ export default function Hero() {
         className="absolute inset-0 opacity-20 bg-[linear-gradient(to_right,#fb923c18_1px,transparent_1px),linear-gradient(to_bottom,#fb923c18_1px,transparent_1px)] bg-[size:130px_130px]"
       />
 
-      <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[1fr_0.8fr]">
+      <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[1.2fr_0.8fr]">
         
-        {/* TEXTO IZQUIERDA */}
+        {/* CONTENEDOR TEXTO (IZQUIERDA) */}
         <div className="text-center lg:text-left">
-          <motion.div initial={{ opacity: 0, y: 35 }} animate={{ opacity: 1, y: 0 }} className="mb-8">
-            <span className="rounded-full border border-orange-500/30 bg-orange-500/10 px-5 py-2 text-[10px] font-black uppercase tracking-[0.4em] text-orange-200 shadow-[0_0_40px_rgba(249,115,22,0.2)] backdrop-blur md:text-xs">
+          <motion.div 
+            initial={{ opacity: 0, y: 35 }} 
+            animate={{ opacity: 1, y: 0 }} 
+            className="mb-8"
+          >
+            <span className="inline-block rounded-full border border-orange-500/30 bg-orange-500/10 px-4 py-2 text-[9px] font-black uppercase tracking-widest md:tracking-[0.4em] text-orange-200 shadow-[0_0_40px_rgba(249,115,22,0.2)] backdrop-blur whitespace-nowrap md:text-xs md:px-5">
               Frontend Developer · React · Available
             </span>
           </motion.div>
@@ -131,59 +134,40 @@ export default function Hero() {
             EN LA WEB.
           </motion.h1>
 
-
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }} className="mt-11 max-w-2xl text-lg font-light leading-8 text-orange-50/70 md:text-2xl lg:mx-0">
             Soy Daniel, desarrollador frontend. Creo interfaces modernas
             con <span className="font-semibold text-orange-200/90">React</span>, 
             <span className="font-semibold text-white">Tailwind</span> y 
-            <span className="font-semibold text-white">APIs reales</span>.
+            <span className="font-semibold text-white"> APIs reales</span>.
           </motion.p>
 
           {/* BOTONES */}
-                    {/* Botones ultra - PALETA NARANJA */}
           <motion.div
             initial={{ opacity: 0, y: 45 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.78, duration: 0.8 }}
             className="mt-14 flex flex-col justify-center gap-6 sm:flex-row lg:justify-start"
           >
-            {/* Botón Principal (Ver Proyectos) */}
-            <a
-              href="#projects"
-              className="group relative overflow-hidden rounded-[2rem] p-[2px] transition hover:-translate-y-2 hover:scale-[1.04] active:scale-95"
-            >
-              {/* Borde animado con gradiente cónico naranja */}
+            <a href="#projects" className="group relative overflow-hidden rounded-[2rem] p-[2px] transition hover:-translate-y-2 hover:scale-[1.04] active:scale-95">
               <span className="absolute inset-0 rounded-[2rem] bg-[conic-gradient(from_180deg_at_50%_50%,#fb923c,#f97316,#ea580c,#fb923c)] opacity-90 blur-md transition group-hover:blur-lg" />
-
               <span className="relative flex items-center justify-center gap-4 rounded-[2rem] bg-[#0a0502] px-11 py-5 text-lg font-black text-white shadow-[0_0_80px_rgba(249,115,22,0.4)] transition group-hover:bg-[#120a05]">
                 Ver proyectos
-                <span className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-400 text-black transition group-hover:translate-x-1">
-                  →
-                </span>
+                <span className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-400 text-black transition group-hover:translate-x-1">→</span>
               </span>
-
-              {/* Efecto de barrido de luz blanca */}
               <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition duration-700 group-hover:translate-x-full" />
             </a>
 
-            {/* Botón Secundario (Contactarme) */}
-            <a
-              href="#contact"
-              className="group relative overflow-hidden rounded-[2rem] border border-orange-500/20 bg-white/5 px-11 py-5 text-lg font-black text-white shadow-[0_0_40px_rgba(234,88,12,0.15)] backdrop-blur-xl transition hover:-translate-y-2 hover:scale-[1.04] hover:border-orange-500/60 active:scale-95"
-            >
+            <a href="#contact" className="group relative overflow-hidden rounded-[2rem] border border-orange-500/20 bg-white/5 px-11 py-5 text-lg font-black text-white shadow-[0_0_40px_rgba(234,88,12,0.15)] backdrop-blur-xl transition hover:-translate-y-2 hover:scale-[1.04] hover:border-orange-500/60 active:scale-95">
               <span className="absolute inset-0 bg-gradient-to-r from-white/0 via-orange-500/10 to-white/0 opacity-0 transition group-hover:opacity-100" />
-
               <span className="relative flex items-center justify-center gap-4">
                 Contacta
-                <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-white/10 transition group-hover:rotate-45 group-hover:border-orange-400">
-                  ↗
-                </span>
+                <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-white/10 transition group-hover:rotate-45 group-hover:border-orange-400">↗</span>
               </span>
             </a>
           </motion.div>
 
           {/* SKILLS */}
-          <div className="mt-10 flex flex-wrap justify-center gap-3 lg:justify-start">
+          <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
             {SKILLS.map((skill, index) => (
               <motion.span
                 key={skill}
@@ -197,7 +181,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Recuadro código - PALETA NARANJA / COBRE */}
+        {/* RECUADRO CÓDIGO (DERECHA) */}
         <motion.div
           initial={{ opacity: 0, scale: 0.86, rotate: -6 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
@@ -209,47 +193,21 @@ export default function Hero() {
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
             className="relative overflow-hidden rounded-[3rem] border border-orange-500/20 bg-white/5 p-6 shadow-[0_35px_130px_rgba(234,88,12,0.2)] backdrop-blur-2xl"
           >
-            {/* Resplandor de fondo cálido */}
             <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 via-transparent to-red-600/10" />
-
-            {/* Cabecera ventana */}
             <div className="relative mb-5 flex items-center justify-between">
               <div className="flex gap-2">
                 <span className="h-3 w-3 rounded-full bg-orange-600/50" />
                 <span className="h-3 w-3 rounded-full bg-orange-500/50" />
                 <span className="h-3 w-3 rounded-full bg-orange-400/50" />
               </div>
-              <span className="text-[10px] font-bold uppercase tracking-widest text-orange-200/40">danieldaviddf</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-orange-200/40">daniel.dev</span>
             </div>
-
-            {/* Código editor */}
             <div className="relative rounded-2xl border border-white/5 bg-[#0a0502]/80 p-7 text-left font-mono text-sm leading-relaxed">
               <p className="text-orange-300">const developer = {"{"}</p>
-              <p className="ml-5 text-orange-100">name: <span className="text-orange-400">"Daniel Díaz"</span>,</p>
-              <p className="ml-5 text-orange-100">
-                role: <span className="text-orange-400">"Frontend Architect"</span>,
-              </p>
+              <p className="ml-5 text-orange-100">name: <span className="text-orange-400">"Daniel"</span>,</p>
+              <p className="ml-5 text-orange-100">role: <span className="text-orange-400">"Frontend Architect"</span>,</p>
               <p className="ml-5 text-orange-100">status: <span className="text-green-400">"available"</span>,</p>
-              <p className="ml-5 text-orange-100">
-                mission: <span className="text-orange-400">"impactful UI"</span>,
-              </p>
               <p className="text-orange-300">{"}"}</p>
-            </div>
-
-            {/* Stats inferiores */}
-            <div className="relative mt-6 grid grid-cols-3 gap-4">
-              <div className="rounded-2xl border border-white/5 bg-white/5 p-4 text-center">
-                <p className="text-2xl font-black text-white">5+</p>
-                <p className="text-[9px] uppercase tracking-tighter text-gray-500">Projects</p>
-              </div>
-              <div className="rounded-2xl border border-white/5 bg-white/5 p-4 text-center">
-                <p className="text-2xl font-black text-white">UI</p>
-                <p className="text-[9px] uppercase tracking-tighter text-gray-400">Premium</p>
-              </div>
-              <div className="rounded-2xl border border-orange-500/20 bg-orange-500/10 p-4 text-center shadow-[inset_0_0_15px_rgba(249,115,22,0.1)]">
-                <p className="text-2xl font-black text-orange-400">Open</p>
-                <p className="text-[9px] uppercase tracking-tighter text-orange-200/50">To work</p>
-              </div>
             </div>
           </motion.div>
         </motion.div>
