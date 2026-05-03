@@ -28,8 +28,8 @@ const projects = [
     description:
       "Plataforma web inspirada en streaming con búsqueda de películas, consumo de API externa y una interfaz visual moderna.",
     tech: ["React", "Tailwind", "TMDB API", "Context API"],
-    demo: "https://vhsflix.vercel.app",
-    code: "https://github.com/Danieldaviddf/VHSFlix",
+    demo: "https://vhsflix-danieldaviddf.vercel.app/",
+    code: "https://github.com/Danieldaviddf/Proyecto-Final",
     images: [homeImg, favoritosImg, imagenImg, trailerImg],
   },
   {
