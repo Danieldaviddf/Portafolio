@@ -24,12 +24,12 @@ export default function Hero() {
     };
 
     // --- TUS PARÁMETROS ORIGINALES ---
-    const particles = Array.from({ length: 180 }, () => ({
+    const particles = Array.from({ length: isMobile ? 70 : 200 }, () => ({
       x: Math.random(),
       y: Math.random(),
-      r: Math.random() * 2.5 + 2,
-      vx: (Math.random() - 0.5) * 0.0008,
-      vy: (Math.random() - 0.5) * 0.0008,
+      r: Math.random() * 3 + 2.5,
+      vx: (Math.random() - 0.5) * 0.001,
+      vy: (Math.random() - 0.5) * 0.001,
     }));
 
     const move = (e) => {
