@@ -14,17 +14,29 @@ export default function Hero() {
     let raf;
     let mouse = { x: -9999, y: -9999 };
 
-    // --- PARCHE TÉCNICO PARA NITIDEZ (IPHONE/RETINA) ---
+    // --- 1. CONFIGURACIÓN DE RESOLUCIÓN ---
     const dpr = window.devicePixelRatio || 1;
+    const isMobile = window.innerWidth < 768;
+
     const resize = () => {
-      const rect = canvas.getBoundingClientRect();
-      canvas.width = rect.width * dpr;
-      canvas.height = rect.height * dpr;
+      // Obtenemos el tamaño real de la ventana
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+
+      // Seteamos el tamaño interno (resolución)
+      canvas.width = width * dpr;
+      canvas.height = height * dpr;
+
+      // Seteamos el tamaño visual (CSS) para que no se estire
+      canvas.style.width = `${width}px`;
+      canvas.style.height = `${height}px`;
+
+      // Reset de escala y aplicamos dpr para que sean círculos perfectos
+      ctx.setTransform(1, 0, 0, 1, 0, 0);
       ctx.scale(dpr, dpr);
     };
 
-    // --- TUS PARÁMETROS ORIGINALES ---
-    const isMobile = window.innerWidth < 768;
+    // --- 2. TUS PARTÍCULAS PREFERIDAS ---
     const particles = Array.from({ length: isMobile ? 70 : 200 }, () => ({
       x: Math.random(),
       y: Math.random(),
@@ -32,6 +44,7 @@ export default function Hero() {
       vx: (Math.random() - 0.5) * 0.001,
       vy: (Math.random() - 0.5) * 0.001,
     }));
+
 
     const move = (e) => {
       const rect = canvas.getBoundingClientRect();
