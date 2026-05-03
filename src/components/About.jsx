@@ -68,7 +68,7 @@ export default function About() {
 
               <div className="space-y-6 text-lg font-light leading-relaxed text-gray-400">
                  <p>
-                    Como desarrollador <b className="text-white font-medium">Frontend Architect</b>, mi enfoque principal es transformar requisitos complejos en interfaces intuitivas. No solo construyo sitios web; diseño ecosistemas digitales basados en la tríada de <span className="text-orange-400 font-medium">Precisión Visual, Código Escalable y UX</span>.
+                    Como <b className="text-white font-medium">desarrollador Frontend</b>, mi enfoque principal es transformar requisitos complejos en interfaces intuitivas. No solo construyo sitios web; diseño ecosistemas digitales basados en la tríada de <span className="text-orange-400 font-medium">Precisión Visual, Código Escalable y UX</span>.
                   </p>
                   <p>
                     Mi objetivo es entregar software que no solo cumpla con los estándares técnicos, sino que <span className="text-orange-200/80 italic font-medium">optimice procesos y genere confianza</span> desde el primer clic.
