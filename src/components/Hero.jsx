@@ -190,7 +190,7 @@ export default function Hero() {
               <div className="flex gap-2">
                 <span className="h-3 w-3 rounded-full bg-orange-600/50" /><span className="h-3 w-3 rounded-full bg-orange-500/50" /><span className="h-3 w-3 rounded-full bg-orange-400/50" />
               </div>
-              <span className="text-[10px] font-bold uppercase tracking-widest text-orange-200/40">daniel.dev</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-orange-200/40">danieldaviddf</span>
             </div>
             <div className="relative rounded-2xl border border-white/5 bg-[#0a0502]/80 p-7 text-left font-mono text-sm leading-relaxed">
               <p className="text-orange-300">const developer = {"{"}</p>
