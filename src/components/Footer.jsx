@@ -76,7 +76,7 @@ export default function Footer() {
                 className="group flex items-center justify-between bg-white/5 border border-white/5 px-6 py-3 rounded-2xl hover:bg-orange-500/10 hover:border-orange-500/30 transition-all duration-500"
               >
                 <span className="text-gray-400 group-hover:text-white text-xs font-bold transition-colors">LINKEDIN</span>
-                <span className="text-orange-500 group-hover:translate-x-1 transition-transform">↗</span>
+                <span className="text-orange-500 group-hover:translate-x-1 transition-transform">→</span>
               </a>
             </div>
           </div>

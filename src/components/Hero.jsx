@@ -171,7 +171,7 @@ export default function Hero() {
             </a>
 
             <a href="#contact" className="group relative overflow-hidden rounded-[2rem] border border-orange-500/20 bg-white/5 px-11 py-5 text-lg font-black text-white shadow-[0_0_40px_rgba(234,88,12,0.15)] backdrop-blur-xl transition hover:-translate-y-2 hover:scale-[1.04] hover:border-orange-500/60 active:scale-95">
-              <span className="relative flex items-center justify-center gap-4">Contacta<span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-white/10 transition group-hover:rotate-45 group-hover:border-orange-400">↗</span></span>
+              <span className="relative flex items-center justify-center gap-4">Contacta<span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-white/10 transition group-hover:border-orange-400">→</span></span>
             </a>
           </motion.div>
 
