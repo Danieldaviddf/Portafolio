@@ -26,6 +26,15 @@ import contactoipa from "../assets/ipanema/contactoipa.png";
 
 const projects = [
   {
+    title: "Ulstra X Code",
+    description:
+      "Plataforma web de desarrollo Full Stack orientado a la creación de interfaces inmersivas de alto rendimiento y escalabilidad técnica.",
+    tech: ["React", "Tailwind", "Python", "Context API", "SQL"],
+    demo: "https://www.ultraxcode.com/",
+    code: "https://github.com/ultraxcode-com/ultra-x-code",
+    images: [],
+  },
+  {
     title: "VHSflix (Netflix de Trailers)",
     description:
       "Plataforma web inspirada en streaming con búsqueda de películas, consumo de API externa y una interfaz visual moderna.",
