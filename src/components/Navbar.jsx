@@ -42,15 +42,15 @@ export default function Navbar() {
         
         {/* LOGO */}
         <div className="flex items-center gap-2 group cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-  {/* Caja del Logo */}
-  <div className="w-9 h-9 bg-orange-600 rounded-lg flex items-center justify-center font-mono font-black text-sm text-white shadow-[0_0_15px_rgba(234,102,0,0.4)] transition-all duration-300 group-hover:scale-105">
-    &lt;D/&gt;
-  </div>
-  {/* Nombre */}
-  <span className="font-bold text-lg tracking-tighter whitespace-nowrap">
-    DANIEL <span className="text-orange-500 font-black transition-colors duration-300 group-hover:text-orange-400">DÍAZ</span>
-  </span>
-</div>
+          {/* Caja del Logo */}
+          <div className="w-9 h-9 bg-orange-600 rounded-lg flex items-center justify-center font-mono font-black text-sm text-white shadow-[0_0_15px_rgba(234,102,0,0.4)] transition-all duration-300 group-hover:scale-105">
+            &lt;D/&gt;
+          </div>
+          {/* Nombre */}
+          <span className="font-bold text-lg tracking-tighter whitespace-nowrap">
+            DANIEL <span className="text-orange-500 font-black transition-colors duration-300 group-hover:text-orange-400">DÍAZ</span>
+          </span>
+        </div>
 
 
         {/* MENU DESKTOP */}
